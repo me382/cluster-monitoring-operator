@@ -39,7 +39,7 @@ local certsCAVolumeName = 'operator-certs-ca-bundle';
                           '--config-reloader-memory=0',
                           '--web.enable-tls=true',
                           '--web.tls-cipher-suites=' + std.join(',', $._config.tlsCipherSuites),
-                          '--manage-crds=false',
+                          '--web.tls-min-version=VersionTLS12',
                         ],
                         securityContext: {},
                         resources: {
