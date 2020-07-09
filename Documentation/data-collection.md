@@ -5,6 +5,7 @@ Red Hat values our customer experience and privacy. It is important to us that o
 For the OpenShift 4 Developer Preview we will be sending back these exact attributes based on your cluster ID and pull secret from Red Hat:
 
 [embedmd]:# (../manifests/0000_50_cluster_monitoring_operator_04-config.yaml)
+
 ```yaml
 apiVersion: v1
 data:
